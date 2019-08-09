@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
-function Layout(props) {
+function Layout (props) {
   // const children = props.children;
 
   return (
@@ -10,7 +10,7 @@ function Layout(props) {
       <Navbar />
       {props.children}
     </React.Fragment>
-  );
+  )
 }
 
-export default Layout;
+export default Layout
