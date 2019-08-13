@@ -442,20 +442,22 @@
       "id": "npaYZKI"
     },
     {
-      "firstName": "José",
-      "lastName": "Morales",
-      "email": "jlmruiz@outlook.com",
-      "jobTitle": "Salesforce Developer",
-      "twitter": "Iron_Chepe",
-      "id": "_b_yupF"
+      "firstName": "Chuck",
+      "lastName": "Norris",
+      "email": "chucknorris@domain.com",
+      "jobTitle": "Almighty",
+      "twitter": "chucknorris",
+      "id": "_b_yupF",
+      "avatarUrl": "https://www.gravatar.com/avatar/8bc685cd3ed05279b4278a2eb9c940c8?d=identicon&s=360"
     },
     {
-      "firstName": "José",
-      "lastName": "Morales",
-      "email": "jlmruiz@outlook.com",
-      "jobTitle": "Salesforce Developer",
-      "twitter": "Iron_Chepe",
-      "id": "nUTpwOf"
+      "firstName": "Dug",
+      "lastName": "The Pug",
+      "email": "dugthepug@gmail.com",
+      "jobTitle": "Influencer",
+      "twitter": "itsdougthepug",
+      "id": "nUTpwOf",
+      "avatarUrl": "https://www.gravatar.com/avatar/34a5e7f9ccbe50079c9c0103b8903d74?d=identicon&s=360"
     },
     {
       "firstName": "José",
