@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import './styles/BadgeDetails.css'
 import confLog from '../images/platziconf-logo.svg'
 import Badge from '../components/Badge'
+import DeleteBadgeModal from '../components/DeleteBadgeModal'
 
 function BadgeDetails (props) {
   const { id, firstName, lastName, email, avatarUrl, twitter, jobTitle } = props.badge
@@ -31,7 +32,7 @@ function BadgeDetails (props) {
               jobTitle={jobTitle}
               avatarUrl={avatarUrl}
               twitter={twitter}
-              onChange={this.handleChange} />
+              onChange={props.handleChange} />
           </div>
           <div className='col' >
             <h2>Actions</h2>
@@ -41,7 +42,9 @@ function BadgeDetails (props) {
               </Link>
             </div>
             <div>
-              <button className='btn btn-danger'>Delete</button>
+              <button onClick={props.onOpenModal} className='btn btn-danger'>Delete</button>
+              <DeleteBadgeModal isOpen={props.modalIsOpen} onCloseModal={props.onCloseModal}
+                onDeleteBadge={props.onDeleteBadge} />
             </div>
           </div>
         </div>
